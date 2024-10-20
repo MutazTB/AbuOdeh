@@ -1,0 +1,106 @@
+﻿@model AbuOdeh_Electromechanical.Repository.Entities.Product
+@using AbuOdeh_Electromechanical.Resources;
+@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IHtmlLocalizer<LocalizationResources> _htmlLocalizer;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<div class="page-container">
+    <div class="main-content">
+        <div class="page-header">
+            <h2 class="header-title">@_htmlLocalizer.GetString("ProductName")</h2>
+            <div class="header-sub-title">
+                <nav class="breadcrumb breadcrumb-dash">
+                    <a class="breadcrumb-item" href="#">@_htmlLocalizer.GetString("Home")</a>
+                    <a class="breadcrumb-item" href="/Admin/Product/Index">@_htmlLocalizer.GetString("Products")</a>
+                    <span class="breadcrumb-item active">@_htmlLocalizer.GetString("NewProduct")</span>
+                </nav>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <form id="CreateProduct" method="post" asp-controller="Product" asp-action="Create">
+                    <div class="d-md-flex m-b-15 align-items-center justify-content-between">
+                        <div class="media align-items-center m-b-15">
+                            <div class="m-l-15">
+                                <h4 class="m-b-0">New Product</h4>
+                            </div>
+                        </div>
+                        <div class="m-b-15">
+                            <button type="submit" id="addProduct" class="btn btn-primary m-r-5">
+                                <i class="anticon anticon-loading m-r-5"></i>
+                                <i class="anticon anticon-poweroff m-r-5"></i>
+                                <span>Save</span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="code">@_htmlLocalizer.GetString("NameEn")</label>
+                            <input asp-for="NameEn" type="text" class="form-control is-valid" id="nameEn" autocomplete="off" placeholder="@_htmlLocalizer.GetString("NameEn")">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="nameAr">@_htmlLocalizer.GetString("NameAr")</label>
+                            <input asp-for="NameAr" type="text" class="form-control is-valid" id="nameAr" autocomplete="off" placeholder="@_htmlLocalizer.GetString("NameAr")">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="DescriptionEn">@_htmlLocalizer.GetString("DescriptionEn")</label>
+                            <input asp-for="DescriptionEn" type="text" class="form-control is-valid" id="descriptionEn" autocomplete="off" placeholder="@_htmlLocalizer.GetString("DescriptionEn")">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="DescriptionAr">@_htmlLocalizer.GetString("DescriptionAr")</label>
+                            <input asp-for="DescriptionAr" type="text" class="form-control is-valid" id="descriptionAr" autocomplete="off" placeholder="@_htmlLocalizer.GetString("DescriptionAr")">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="Price">@_htmlLocalizer.GetString("Price")</label>
+                            <input asp-for="Price" type="text" class="form-control is-valid" id="price" autocomplete="off" placeholder="@_htmlLocalizer.GetString("Price")">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="CategoryId">@_htmlLocalizer.GetString("Category")</label>
+                            <select name="CategoryId" id="categoryId" name="categoryId" class="form-control" style="text-align: unset !important;">
+                                <!option value>@_htmlLocalizer.GetString("PleaseEnter")</!option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group text-right">
+                        <a href="/admin/Product" id="trigger-loading-1" class="btn btn-default m-r-5">
+                            <i class="anticon anticon-loading m-r-5"></i>
+                            <i class="anticon anticon-poweroff m-r-5"></i>
+                            <span>@_htmlLocalizer.GetString("GoBack")</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Admin/Categories/GetAll/',
+            type: 'GET',
+            success: function (data) {
+                var categoryId = $('#categoryId');
+                categoryId.empty();
+                // uOM.append('<!option value>@_htmlLocalizer.GetString("PleaseEnter")</!option>');
+                $.each(data, function (index, item) {
+                    categoryId.append($('<option>', {
+                        value: item.id,
+                        text: item.NameEn
+                    }));
+                });
+            },
+            error: function (xhr, status, error) {
+                console.error('Error fetching data: ', error);
+            }
+        });
+    });
+</script>

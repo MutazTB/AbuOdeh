@@ -1,0 +1,124 @@
+﻿@model AbuOdeh_Electromechanical.Repository.Entities.Category
+@using AbuOdeh_Electromechanical.Resources;
+@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IHtmlLocalizer<LocalizationResources> _htmlLocalizer;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<link rel="shortcut icon" href="~/assets/images/logo/favicon.png">
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+<script src="~/sweetalert2/sweetalert2.all.min.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/admin/assets/js/app.min.js"></script>
+<script src="~/admin/assets/vendors/jquery-validation/jquery.validate.min.js"></script>
+<script src="~/admin/assets/js/pages/form-validation.js"></script>
+<script src="~/admin/assets/vendors/datatables/jquery.datatables.min.js"></script>
+<link href="~/admin/assets/vendors/datatables/datatables.bootstrap.min.css" rel="stylesheet" />
+
+<div class="page-container">
+    <div class="main-content">
+        <div class="page-header">
+            <h2 class="header-title">@_htmlLocalizer.GetString("CompanyName")</h2>
+            <div class="header-sub-title">
+                <nav class="breadcrumb breadcrumb-dash">
+                    <a class="breadcrumb-item" href="#">@_htmlLocalizer.GetString("Home")</a>
+                    <a class="breadcrumb-item" href="/Admin/Categories/Index">@_htmlLocalizer.GetString("Categories")</a>
+                    <span class="breadcrumb-item active">@_htmlLocalizer.GetString("EditCategory")</span>
+                </nav>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <form id="EditCategory" method="post" asp-controller="Categories" asp-action="Update">
+                    <div class="d-md-flex m-b-15 align-items-center justify-content-between">
+                        <div class="media align-items-center m-b-15">
+                            <div class="m-l-15">
+                                <h4 class="m-b-0">Edit Category</h4>
+                            </div>
+                        </div>
+                        <div class="m-b-15">
+                            <button type="submit" id="editCategory" class="btn btn-primary m-r-5">
+                                <i class="anticon anticon-loading m-r-5"></i>
+                                <i class="anticon anticon-save  m-r-5"></i>
+                                <span>Save</span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-row">
+                        <input asp-for="Id" type="text" style="display:none" id="id" autocomplete="off" value="@Model.Id" placeholder="Code">
+                        <input asp-for="ObjectKey" type="text" style="display:none" id="objectKey" autocomplete="off" value="@Model.ObjectKey" placeholder="Code">
+                        <div class="form-group col-6">
+                            <label for="code">@_htmlLocalizer.GetString("NameEn")</label>
+                            <input asp-for="NameEn" type="text" class="form-control is-valid" id="nameEn" value="@Model.NameEn" autocomplete="off" placeholder="@_htmlLocalizer.GetString("NameEn")">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="nameAr">@_htmlLocalizer.GetString("NameAr")</label>
+                            <input asp-for="NameAr" type="text" class="form-control is-valid" id="nameAr" value="@Model.NameAr" autocomplete="off" placeholder="@_htmlLocalizer.GetString("NameAr")">
+                        </div>
+                    </div>
+                    <div class="form-group text-right">
+                        <a href="/admin/categories" id="trigger-loading-1" class="btn btn-default m-r-5">
+                            <i class="anticon anticon-loading m-r-5"></i>
+                            <i class="anticon anticon-arrow-left m-r-5"></i>
+                            <span>@_htmlLocalizer.GetString("GoBack")</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    $(document).on('click', '#editCategory', async function () {
+       
+            var data = Object.assign({},
+                { id: $('#id').val() },
+                { objectKey: $('#objectKey').val() },
+                { nameEn: $('#nameEn').val() },
+                { nameAr: $('#nameAr').val() }
+            );
+            console.log(JSON.stringify(data))
+            updateCategory(data)
+        
+    });
+
+    function updateCategory(data) {
+        $.ajax({
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            type: 'POST',
+            async: false,
+            url: '/Categories/Update',
+            data: JSON.stringify(data),
+
+            success: function (res, textStatus, xhr) {
+                Swal.fire(
+                    'Success!',
+                    'The item has been updated successfully.',
+                    'success'
+                ).then(() => {
+
+                    window.location.href = 'Admin/Product/Index'
+                });
+            },
+            error: function (res) {
+                Swal.fire(
+                    'Error!',
+                    'Failed to update the item.',
+                    'error'
+                );
+            }
+        }).done(function () {
+        });
+    }
+</script>

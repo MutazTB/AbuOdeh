@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|c:\\users\\mutaz.t\\desktop\\testmvc\\abuodeh_electromechanical\\abuodeh_electromechanical\\abuodeh_electromechanical\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA2DC01-F066-4A6A-8ACB-2637446A9610}|AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical.csproj|solutionrelative:abuodeh_electromechanical\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T20:26:30.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T20:18:55.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:18:49.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T20:18:44.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T20:12:10.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:07:20.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T20:07:05.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\create.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\create.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\create.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Categories\\create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T19:57:05.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwGEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T19:56:37.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T19:56:21.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T19:56:09.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mutaz.t\\Desktop\\testMVC\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "AbuOdeh_Electromechanical\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T19:56:01.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
